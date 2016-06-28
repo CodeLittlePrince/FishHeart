@@ -17,7 +17,7 @@ fruitObj.prototype.init = function(){
 		this.y[i] = 0;
 		this.aneNO[i] = 0;
 		this.spd[i] = Math.random() * 0.017 + 0.003; //[0.003, 0.02)
-		this.born(i);
+		// this.born(i);
 		this.fruitType[i] = '';
 	}
 	this.orange.src = './src/fruit.png';
