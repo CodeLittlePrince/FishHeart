@@ -21,7 +21,7 @@ waveObj.prototype.draw = function(){
 			this.r[i] += deltaTime * 0.04;
 			if (this.r[i] > 50) {
 				this.alive[i] = false;
-				break;
+				continue;
 			}
 			var alpha = 1 - this.r[i] / 50;
 			//draw circle API: arc() strokeStyle() lineWidth
